@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<note>
+  <revision m="20" h="3" d="22" mo="7" y="2010"/>
+  <title>Minecraft Suggestions</title>
+  <content>System {
+	Only render blocks in distance, not load whole chunk
+	Do not load all underground chunks
+	Tooltips/tips as an option
+	Trading menu
+	Voice/text chat when players are near each other, unless a enchanted "radio" tool is built
+	Sounds echo in caves
+}
+General {
+	Food rots after x days depending on type of food, and whether it is cooked
+	Blocks restore damage slowly after being damaged
+	Character creation (upload/generate skin, dexterity, gender)
+	Track occlusion
+	A use key [e] to open/use/pick up items, mouse buttons only for tool use
+	Tool repair with the hammer tool, on an anvil
+	Ctrl-click to move items into/out of a chest to reduce clicks [CONFIRMED]
+	Carry-able chests [CONFIRMED]
+	Trapdoors [CONFIRMED]
+	Grate, clips player, not water/lava [CONFIRMED]
+	Biomes, weather, and seasons [CONFIRMED]
+	Iron lasts twice as long [CONFIRMED]
+	Submit to Steam Store [CONFIRMED]
+	Diamond lasts forever, protected by monster [MAYBE]
+}
+Aesthetics {
+	Moon phases
+	Health status on tools go from green to yellow to red not green to red
+	Door animation (like sand/gravel)
+	Generate grass sprites on top of grass blocks
+	Block texture generator - so each block is slightly different
+	Some form of anti-aliasing and/or anisotropic filtering in fancy rendering mode
+	Multi-sized, variable speed/height clouds that slow your movement when inside [CONFIRMED]
+}
+Tools {
+	Fishing rod
+	Compass (think Love by Eskil Steenburg)
+	Hammer for fixing tools, fighting
+	"Radio" enchanted tool to allow players to talk across map on a certain frequency
+	Spyglass (glass, wood)
+	Map [CONFIRMED]
+	Shield [MAYBE]
+	Backpack for larger inventory [CONFIRMED]
+}
+Mobs {
+	Fish/Sharks [CONFIRMED]
+	Birds (nest in trees, eggs) [CONFIRMED]
+	Slime monster, turns into smaller ones when killed [CONFIRMED]
+}
+Blocks/Entities {
+	Recycle Bin - recycles tools/items into their respective blocks
+	Bricks (bake clay, which is received from dirt similar to flint from gravel)
+	Flowerpot (clay + dirt)
+	Lockable doors/chests (need a [certain?] key to open)
+	Additional complex work table (larger grid) for more complex entities (boats)
+	Kitchen block - cook/prepare food like furnace block (oven/stove)
+	Refridgerator to prevent food from rotting
+	Anvil for tool fixing
+	Fence/railing [CONFIRMED]
+	Bed/hammock (Speed up time) [CONFIRMED]
+	Windmill [MAYBE]
+}</content>
+</note>

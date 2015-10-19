@@ -1,0 +1,66 @@
+#growlcontainer{
+	position: fixed;
+	right: 20px;
+	bottom: 34px;
+	z-index: 1000;
+	font-size: 12px;
+	width: 300px;
+}
+.growlstatus{
+	position: relative;
+	background-color: #000; /*fallback for ie*/
+	background-color: rgba(0,0,0,0.8);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,.5)), to(transparent));
+	border: 1px #000 solid;
+	padding: 15px;
+	color: #fff;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: 0 5px 20px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 5px 20px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 5px 20px rgba(0,0,0,.5);
+	-webkit-transition: background-color .25s ease;
+}
+.growlstatus .growltitle{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.growlstatusclose{
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	opacity: 0;
+	background: transparent url(../img/growlclose.png) no-repeat;
+	-webkit-transition: opacity .25s ease;
+}
+.growlstatus:hover{
+	background-color: rgba(0, 0, 0, 0.9);
+	/*border: 1px #fff solid;*/
+}
+.growlstatus:hover .growlstatusclose{
+	opacity: 1;
+}
+.growlwithicon{
+	padding-left: 50px;
+	background-position: 5px 10px;
+	background-repeat: no-repeat;
+}
+
+/****** growl icons ********/
+.growlicon_heart{
+	background-image: url(../img/heart.png);
+}
+.growlicon_star{
+	background-image: url(../img/star.png);
+}
+.growlicon_clouds{
+	background-image: url(../img/clouds.png);
+}
+.growlicon_parachute{
+	background-image: url(../img/parachute.png);
+}

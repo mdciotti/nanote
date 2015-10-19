@@ -1,0 +1,29 @@
+
+.jScrollPaneContainer {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.jScrollPaneTrack {
+	position: absolute;
+	/*cursor: pointer;*/
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 9px;
+	background: transparent;
+}
+.jScrollPaneDrag {
+	position: absolute;
+	background: rgba(0,0,0,.5);
+	/*cursor: pointer;*/
+	overflow: hidden;
+	border-radius: 10px;
+	right: 2px;
+	width: 5px;
+	box-shadow: 0 0 3px rgb(255,255,255);
+	-webkit-box-shadow: 0 0 3px rgb(255,255,255);
+	-moz-box-shadow: 0 0 3px rgb(255,255,255);
+	/*-webkit-transition: all .5s ease;*/
+}

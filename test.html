@@ -1,0 +1,79 @@
+<html>
+<head>
+	<title>jScrollPane</title>
+	<link rel="stylesheet" href="./res/styles/jScrollPane.css" />
+	<script src="./res/scripts/jquery.min.js"></script>
+	<script src="./res/scripts/mousewheel.js"></script>
+	<script src="./res/scripts/jScrollPane.js"></script>
+	<script type="text/javascript">
+$(document).ready(function(){
+	$('#scroll').jScrollPane({animateTo:true});
+});
+	</script>
+</head>
+<body style="background:#3c3;">
+<div id="scroll" style="height: 400px; width: 600px;background:#333;color:#fff;">
+<h2>System</h2><ul>
+	<li>Only render blocks in distance, not load whole chunk</li>
+	<li>Do not load all underground chunks</li>
+	<li>Tooltips/tips as an option</li>
+	<li>Trading menu</li>
+	<li>Voice/text chat when players are near each other, unless a enchanted "radio" tool is built</li>
+	<li>Sounds echo in caves</li>
+</ul>
+<h2>General</h2><ul>
+	<li>Food rots after x days depending on type of food, and whether it is cooked</li>
+	<li>Blocks restore damage slowly after being damaged</li>
+	<li>Character creation (upload/generate skin, dexterity, gender)</li>
+	<li>Track occlusion</li>
+	<li>A use key [e] to open/use/pick up items, mouse buttons only for tool use</li>
+	<li>Tool repair with the hammer tool, on an anvil</li>
+	<li>Ctrl-click to move items into/out of a chest to reduce clicks [CONFIRMED]</li>
+	<li>Carry-able chests [CONFIRMED]</li>
+	<li>Trapdoors [CONFIRMED]</li>
+	<li>Grate, clips player, not water/lava [CONFIRMED]</li>
+	<li>Biomes, weather, and seasons [CONFIRMED]</li>
+	<li>Iron lasts twice as long [CONFIRMED]</li>
+	<li>Submit to Steam Store [CONFIRMED]</li>
+	<li>Diamond lasts forever, protected by monster [MAYBE]</li>
+</ul>
+<h2>Aesthetics</h2><ul>
+	<li>Moon phases</li>
+	<li>Health status on tools go from green to yellow to red not green to red</li>
+	<li>Door animation (like sand/gravel)</li>
+	<li>Generate grass sprites on top of grass blocks</li>
+	<li>Block texture generator - so each block is slightly different</li>
+	<li>Some form of anti-aliasing and/or anisotropic filtering in fancy rendering mode</li>
+	<li>Multi-sized, variable speed/height clouds that slow your movement when inside [CONFIRMED]</li>
+</ul>
+<h2>Tools</h2><ul>
+	<li>Fishing rod</li>
+	<li>Compass (think Love by Eskil Steenburg)</li>
+	<li>Hammer for fixing tools, fighting</li>
+	<li>"Radio" enchanted tool to allow players to talk across map on a certain frequency</li>
+	<li>Spyglass (glass, wood)</li>
+	<li>Map [CONFIRMED]</li>
+	<li>Shield [MAYBE]</li>
+	<li>Backpack for larger inventory [CONFIRMED]</li>
+</ul>
+<h2>Mobs</h2><ul>
+	<li>Fish/Sharks [CONFIRMED]</li>
+	<li>Birds (nest in trees, eggs) [CONFIRMED]</li>
+	<li>Slime monster, turns into smaller ones when killed [CONFIRMED]</li>
+</ul>
+<h2>Blocks/Entities</h2><ul>
+	<li>Recycle Bin - recycles tools/items into their respective blocks</li>
+	<li>Bricks (bake clay, which is received from dirt similar to flint from gravel)</li>
+	<li>Flowerpot (clay + dirt)</li>
+	<li>Lockable doors/chests (need a [certain?] key to open)</li>
+	<li>Additional complex work table (larger grid) for more complex entities (boats)</li>
+	<li>Kitchen block - cook/prepare food like furnace block (oven/stove)</li>
+	<li>Refridgerator to prevent food from rotting</li>
+	<li>Anvil for tool fixing</li>
+	<li>Fence/railing [CONFIRMED]</li>
+	<li>Bed/hammock (Speed up time) [CONFIRMED]</li>
+	<li>Windmill [MAYBE]</li>
+</ul>
+</div>
+</body>
+</html>

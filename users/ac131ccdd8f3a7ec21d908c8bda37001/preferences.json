@@ -1,0 +1,11 @@
+{
+	"save":{
+		"after_x_keys":5
+	},
+	"keys":{
+		"mod":17,
+		"save":83,
+		"create":79,
+		"del":46
+	}
+}
